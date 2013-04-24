@@ -17,37 +17,37 @@
 			<input type="submit" value="search" class="ss-icon ss-pika">
 		</form>
     </article>
+	<section class="index-info">
+		<!-- info & pricing link -->
+		<article class="info-pricing clearfix">
+			<header>
+				<h3>Here's more information about our service.</h3>
+			</header>
+			<i class="screenshot front-page right half"></i>
+			<section class="left half">
+				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper.</p>
+				<h4>Prices start at $XXX. See how you can <a href="#">get Company for your school.</a></h4>
+			</section>
+	    </article>
 	
-	<!-- info & pricing link -->
-	<article class="info-pricing">
-		<header>
-			<h3>Here's more information about our service.</h3>
-		</header>
-		<i class="screenshot right half"></i>
-		<section class="left half">
-			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper.</p>
-			<h4>Prices start at $XXX. See how you can <a href="#">get Company for your school.</a></h4>
-		</section>
-    </article>
-	
-	<!-- customer service -->
-	<article class="help">
-		<header>
-			<h3>Here's more information about our service.</h3>
-		</header>
-		<section class="left half">
-			<i class="team-photo"></i>
-			<h4>Contact us at:</h4>
-			<ul>
-				<li><i class="ss-icon ss-social">twitter</i> @twitterhandle</li>
-				<li><i class="ss-icon ss-pika">email</i> info@companyemail.com</li>
-				<li><i class="ss-icon ss-pika">phone</i> (123) 456-7890</li>
-			</ul>
-		</section>
-		<section class="right half">
-			<p>Here's a little blurb about our small team and the kind of help we can provide.<p>
-			<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna.</p>
-		</section>
-    </article>
-
+		<!-- customer service -->
+		<article class="info-help clearfix">
+			<header>
+				<h3>Here's more information about our service.</h3>
+			</header>
+			<section class="left half">
+				<i class="team-photo"></i>
+				<h4>Contact us at:</h4>
+				<ul>
+					<li><i class="ss-icon ss-social">twitter</i> @twitterhandle</li>
+					<li><i class="ss-icon ss-pika">email</i> info@companyemail.com</li>
+					<li><i class="ss-icon ss-pika">phone</i> (123) 456-7890</li>
+				</ul>
+			</section>
+			<section class="right half">
+				<p>Here's a little blurb about our small team and the kind of help we can provide.<p>
+				<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna.</p>
+			</section>
+	    </article>
+	</section>
 <?php include 'footer.php' ?>
