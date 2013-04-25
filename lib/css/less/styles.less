@@ -200,25 +200,26 @@ header.logged-in nav .dropdown-menu {padding:0;}
 			&[type="text"] {width:65%;.box-sizing(); float:left; border-radius:5px 0 0 5px;}
 			&[type="submit"] {-webkit-appearance:none; border:1px solid #999; background:#ccc; padding:9px 0; width:10%;}
 		}
-		.btn {width:12%; float:left; border-right:0; border-radius:0; padding-left:0; padding-right:0;}
+		.btn {width:12%; float:left; border-right:0; border-left:1px solid #999; border-radius:0; padding:11px 0;}
 	}
 }
 
 i.screenshot {
-	&.front-page {background:url(../img/screen-1.png) no-repeat; background-size:100% auto; height:180px;}
+	&.front-page {background:url(../img/screen-1.png) no-repeat; background-size:100% auto; height:320px;}
 }
 
 .index-info {max-width:1400px; margin:0 auto; padding:0 40px;
-	.info-pricing {
-		header {padding-bottom:20px;
-			h3 {font-size:2em; text-align:center;}
-		}
-		p {font-size:1.2em;}
+	.info-pricing {padding:0 0 20px;
 		.half {
 			&.right {width:47%; margin-left:3%;}
 		}
 	}
-	.info-help {}
+	.info-help {border-top:1px dotted @gray; padding:50px 0 0;}
+	header {padding-bottom:20px;
+		h3 {font-size:2.25em; text-align:center;}
+	}
+	p, ul {font-size:1.2em;}
+	h4 {font-size:1.5em; font-weight:bolder;}
 }
 
 /* layouts */

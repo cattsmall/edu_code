@@ -633,33 +633,45 @@ header.logged-in nav .dropdown-menu {
   width: 12%;
   float: left;
   border-right: 0;
+  border-left: 1px solid #999;
   border-radius: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 11px 0;
 }
 i.screenshot.front-page {
   background: url(../img/screen-1.png) no-repeat;
   background-size: 100% auto;
-  height: 180px;
+  height: 320px;
 }
 .index-info {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 40px;
 }
-.index-info .info-pricing header {
-  padding-bottom: 20px;
-}
-.index-info .info-pricing header h3 {
-  font-size: 2em;
-  text-align: center;
-}
-.index-info .info-pricing p {
-  font-size: 1.2em;
+.index-info .info-pricing {
+  padding: 0 0 20px;
 }
 .index-info .info-pricing .half.right {
   width: 47%;
   margin-left: 3%;
+}
+.index-info .info-help {
+  border-top: 1px dotted #cccccc;
+  padding: 50px 0 0;
+}
+.index-info header {
+  padding-bottom: 20px;
+}
+.index-info header h3 {
+  font-size: 2.25em;
+  text-align: center;
+}
+.index-info p,
+.index-info ul {
+  font-size: 1.2em;
+}
+.index-info h4 {
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 /* layouts */
 .container {
