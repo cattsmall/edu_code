@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header class="nav">
-			<nav>
+			<nav class="clearfix">
 				<ul class="browse-topics left">
 					<li><a href="#">Browse Topics</a></li>
 					<li><a href="#">English</a></li>
